@@ -1,0 +1,9 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: #fb3d00;
+}
+
+ul {
+    list-style: none;
+}
