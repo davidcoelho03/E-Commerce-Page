@@ -7,7 +7,9 @@ class App extends Component {
       return (
          <div className="App">
             <Navbar />
-            <h1>BATATAS</h1>
+            <main style={ {marginTop:'64px'}}>
+               <p>Content</p>
+            </main>
          </div>
       );
    }

@@ -1,9 +1,44 @@
 .navbar {
     width: 100%;
     position: fixed;
-    background-color: #fb3d00;
+    background-color: #4d4c53;
+    height: 56px;
+    top: 0;
+    left: 0;
 }
 
-ul {
+.navbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar__navigation {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.navbar__items ul {
+    display: flex;
     list-style: none;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.navbar__items li {
+    padding: 0 0.5rem;
+}
+
+.navbar__items a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__items a:hover {
+    color: #C7C7C7;
+    text-decoration: none;
 }
