@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import styles from './Navbar.module.css';
 
+// Components
+import Input from './components/Input';
+
 // Utils
 import hamburger from './hamburger.svg';
 import breakpoints from "../../../utils/breakpoints";
@@ -30,11 +33,12 @@ class Navbar extends Component {
                <div></div>
                <div className={ styles.navbar__logo }><a href="/">Miranda</a></div>
                <div className={ styles.spacer } />
+               <Input></Input>
                {  !isMobile ? (<div className={ styles.navbar__items }>
                   <ul>
-                     <li><a href="/"> BATATAS </a></li>
-                     <li><a href="/"> BATATAS </a></li>
-                     <li><a href="/"> BATATAS </a></li>
+                     <li><a href="/"> LINK1 </a></li>
+                     <li><a href="/"> LINK2 </a></li>
+                     <li><a href="/"> LINK3 </a></li>
                   </ul></div>) : <img src={ hamburger } alt="Hamburger" />
                }
             </nav>
