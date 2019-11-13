@@ -1,4 +1,4 @@
-.navbar {
+.header {
     width: 100%;
     position: fixed;
     background-color: #FFFFFF;
@@ -9,20 +9,26 @@
     box-shadow: 0 1px 5px 0 rgba(0,0,0,0.75);
 }
 
-.navbar__logo a {
+.header__logo a {
     color: #3e3e3e;
     text-decoration: none;
     font-size: 2rem;
+    opacity: 1;
+    transition: opacity 0.75s ease-in-out;
 }
 
-.navbar__navigation {
+.header__logo a:hover {
+    opacity: 0.5;
+}
+
+.header__navigation {
     display: flex;
     align-items: center;
     height: 100%;
     padding: 0 1rem;
 }
 
-.navbar__items ul {
+.header__items ul {
     display: flex;
     list-style: none;
 }
@@ -31,16 +37,16 @@
     flex: 1;
 }
 
-.navbar__items li {
+.header__items li {
     padding: 0 0.5rem;
 }
 
-.navbar__items a {
+.header__items a {
     color: #3e3e3e;
     text-decoration: none;
 }
 
-.navbar__items a:hover {
+.header__items a:hover {
     color: #C7C7C7;
     text-decoration: none;
 }

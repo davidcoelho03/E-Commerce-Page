@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Input.module.css';
-import searchIcon from '../search.svg';
+import searchIcon from '../../search.svg';
 import classnames from 'classnames';
 
 class Input extends Component {

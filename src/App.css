@@ -1,7 +1,17 @@
 body {
-    background-color: #f2f2ec
+    background-color: #f2f2ec;
+    animation: pulse 5s infinite;
 }
 
 main {
     margin-top: 64px;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #a69f9b;
+    }
+    100% {
+        background-color: #fff6f4;
+    }
 }
